@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 35px;
+    background: black;
+    color: whitesmoke;
+}
+
+.cover {
+    height: 680px;
+    background-image: url(../img/diseño_web.jpg);
+    color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+}
+section{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 1100px;
+}
+
+article{
+    position: relative;
+    width: 900px;
+    height: 500px;
+    top: 10px;
+}
+
+article h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin: 20px;
+}
+
+article img{
+    float: left;
+    margin-right: 20px;
+}
+
+article p{
+    margin: 5px 20px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+footer{
+    height: 70px;
+    margin: 0;
+    background: black;
+    color: whitesmoke;
+}
+
+#Pie{
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
